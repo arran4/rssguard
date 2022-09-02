@@ -2,6 +2,7 @@
 
 os="$1"
 webengine="$2"
+export APPIMAGE_EXTRACT_AND_RUN=1
 
 # Determine OS.
 if [[ "$os" == *"ubuntu"* ]]; then
