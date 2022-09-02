@@ -23,7 +23,8 @@ if [ $is_linux = true ]; then
 
   sudo apt-get -qy install qt515tools qt515base qt515webengine qt515svg qt515multimedia 
   sudo apt-get -qy install cmake ninja-build openssl libssl-dev libgl1-mesa-dev gstreamer1.0-alsa gstreamer1.0-plugins-good gstreamer1.0-plugins-base gstreamer1.0-plugins-bad gstreamer1.0-qt5 gstreamer1.0-pulseaudio
-  
+  sudo apt-get -qy install fuse libfuse2
+
   source /opt/qt515/bin/qt515-env.sh
 
   BUILD_WITH_QT6="OFF"
